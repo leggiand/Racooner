@@ -1,5 +1,5 @@
 # Racooner
- Youtube video downloader based on windows terminal
+video downloader based on windows terminal
 # installation 
 ## Python
 - Go to this [LINK](https://www.python.org/downloads/)
