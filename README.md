@@ -2,7 +2,7 @@
 
 
 # Racooner
-video downloader based on windows terminal
+video downloader based on Windows terminal
 # installation 
 ## Python
 - Go to this [LINK](https://www.python.org/downloads/)
@@ -35,18 +35,18 @@ choose the `format` for the downloaded videos
 - `text file`
   > and choose a `file` that contains the link, they must be separated by a space or a new line
 - `Command line`
-   > you will type the link `manually`,  _you can type more than one link in a line_
+   > you'll have to type the link `manually`,  _you can type more than one link in the same line_
    - type `remove` to delete the last link
    - type `enter` to download the videos
 ## Download
 > ![image](https://user-images.githubusercontent.com/114882821/228355298-5e622e04-0a47-49c2-baf2-1d5b7d0417e8.png)
 
-- it will create a `temporary batch file` with commands for download the videos
+- it will create a `temporary batch file` with commands for downloading the videos
 > ![image](https://user-images.githubusercontent.com/114882821/228355826-89a5477f-ae19-4094-853a-b42ab200bbd5.png)
 
-- then it will `download` every video following the order of the links
-- when all is done the temporary `batch file` is goint to `delete himself` 
+- then it will `download` every video in the order of the links
+- when all is done the temporary `batch file` is goint to `delete itself` 
 
 # important
-use for educational purpose, downloading videos from some site without permission is a violation of their terms
+use for educational purpose only, downloading videos from some website without permission is a violation of their ToS _(Terms of Service)_ 
 
