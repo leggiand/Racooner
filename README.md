@@ -11,7 +11,7 @@ video downloader based on Windows terminal
 - Download the Racooner folder as a `zip` or clone it with `git`
 - Open `launch.bat`
 # Get started
-## Choose where store videos
+## Choose where to store videos
 Here you will be prompted to choose `where store the videos`
 
 _remember to Type the full path of the folder_
