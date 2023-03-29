@@ -38,6 +38,7 @@ choose the `format` for the downloaded videos
    > you'll have to type the link `manually`,  _you can type more than one link in the same line_
    - type `remove` to delete the last link
    - type `enter` to download the videos
+   - you can input also `playlist`
 ## Download
 > ![image](https://user-images.githubusercontent.com/114882821/228355298-5e622e04-0a47-49c2-baf2-1d5b7d0417e8.png)
 
