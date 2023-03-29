@@ -16,6 +16,17 @@ _remember to Type the full path of the folder_
 ## choose how you want to pass the links
 > ![image](https://user-images.githubusercontent.com/114882821/228354070-285799a6-f803-466f-8d05-64a3c874a828.png)
 
+# Format
+>![image](https://user-images.githubusercontent.com/114882821/228581347-f9203090-98b6-4a95-b1cc-8fc6e430fb16.png)
+
+choose the `format` for the downloaded videos
+
+- `mp4`
+  - video and audio
+- `m4a`
+  - only audio
+- `webm`
+  - video and audio optimized for web
 
 ***you can choose***
 - `text file`
@@ -32,7 +43,6 @@ _remember to Type the full path of the folder_
 
 - then it will `download` every video following the order of the links
 - when all is done the temporary `batch file` is goint to `delete himself` 
-# External source
-[`yt-dlp`](https://github.com/yt-dlp/yt-dlp)  which made possible make this project
+
 
 
