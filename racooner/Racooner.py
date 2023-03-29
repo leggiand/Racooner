@@ -33,7 +33,27 @@ while True:
     else:
         os.chdir(pwd)  # if the script change location it changes back and break the loop
         break
+# ask with what format downlaod the file
+
 # ask to prompt what method use for extract link, manually on terminal or extract from a file
+while True:
+    print(colored("Which format Will be the Downloads", "yellow"))
+    print("[a] mp4")
+    print("[b] m4a")
+    print("[c] webm")
+    print(colored('>> ', "green"), end='', flush=True)
+    format = input()
+    if format == "a":
+        format = "mp4"
+        break
+    elif format == "b":
+        format = "m4a"
+        break
+    elif format == "c":
+        format = "248"
+        break
+    else:
+        print(colored("choose a valid format","red"))
 while True:
     print(colored("how should we extract the url:", "cyan"))
     print("[a] text file")
@@ -109,7 +129,7 @@ command = ""
 a = list.split("\n")
 for b in a:
     if b:
-        command += (f" yt-dlp.exe -i \"{b}\" -o \"{path}\%%(title)s.mp3\" ") + "&"
+        command += (f" yt-dlp.exe -f {format} -i \"{b}\" -o \"{path}\%%(title)s.%%(ext)s\" ") + "&"
 command += "pause & del \"%~f0\"" # pause the terminal for check log, after enter it delet the temp batch file
 f = open("exec.bat", "w") # create a temp batch file
 f.write(command) # write on the batch file the command to execute
