@@ -47,5 +47,6 @@ choose the `format` for the downloaded videos
 - then it will `download` every video following the order of the links
 - when all is done the temporary `batch file` is goint to `delete himself` 
 
-
+# important
+use for educational purpose, downloading videos from some site without permission is a violation of their terms
 
