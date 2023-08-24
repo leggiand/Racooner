@@ -1,6 +1,5 @@
 import os
-import subprocess
-
+import platform
 from Lib.termcolor import colored
 
 print(r''' 
@@ -15,6 +14,8 @@ print(r'''
    ░           ░  ░░ ░          ░ ░      ░ ░           ░    ░  ░   ░     
                    ░                                                     ''')
 # list that will be used for store urls
+ytDlpPath=''
+whichOs=platform.system()
 list = ''''''
 # choose where store file
 while True:
@@ -123,15 +124,20 @@ while True:
         pass
 # replace eventually space with new line, useful when read from text file
 list = list.replace(" ", "\n")
+if whichOs == 'Linux':
+    ytDlpPath='./yt-dlp_linux'
+    path+='/'
+else:
+    ytDlpPath='yt-dlp.exe'
+    path+='\\'
 # the command that will be executed in terminal
 command = ""
 # add the downlaod command for every link in the list
 a = list.split("\n")
 for b in a:
     if b:
-        command += (f" yt-dlp.exe -f {format} -i \"{b}\" -o \"{path}\%%(title)s.%%(ext)s\" ") + "&"
-command += "pause & del \"%~f0\"" # pause the terminal for check log, after enter it delet the temp batch file
-f = open("exec.bat", "w") # create a temp batch file
-f.write(command) # write on the batch file the command to execute
-f.close()
-os.system("cmd /k exec.bat") # launch the batch file
+        command += (f" {ytDlpPath} -f {format} -i \"{b}\" -o \"{path}%(title)s.%(ext)s\" ") 
+os.system(command)
+while True:
+    print('Done!!')
+    input()
