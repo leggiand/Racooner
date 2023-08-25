@@ -41,12 +41,8 @@ choose the `format` for the downloaded videos
    - you can input also `playlist`
 ## Download
 > ![image](https://user-images.githubusercontent.com/114882821/228355298-5e622e04-0a47-49c2-baf2-1d5b7d0417e8.png)
-
-- it will create a `temporary batch file` with commands for downloading the videos
-> ![image](https://user-images.githubusercontent.com/114882821/228355826-89a5477f-ae19-4094-853a-b42ab200bbd5.png)
-
-- then it will `download` every video in the order of the links
-- when all is done the temporary `batch file` is goint to `delete itself` 
+- it will `download` every video in the order of the links
+- when all is done the script will stop, so you can read the downloads log
 
 # important
 use for educational purpose only, downloading videos from some website without permission is a violation of their ToS _(Terms of Service)_ 
