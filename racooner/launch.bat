@@ -1,1 +1,1 @@
-python racooner.py
+python %~dp0racooner.py

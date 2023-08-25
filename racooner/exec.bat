@@ -1,1 +1,0 @@
- yt-dlp_linux -f mp4 -i "https://www.youtube.com/watch?v=CML6vfKjQss" -o "/home/leggiand/Videos\%%(title)s.%%(ext)s" &pause & del "%~f0"
